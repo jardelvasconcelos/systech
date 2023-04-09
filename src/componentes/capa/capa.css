@@ -1,0 +1,36 @@
+.container-capa{
+  background-image: url("../../../public/assets/braco-robo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  height: 100vh;
+  z-index: 0;
+  /* border: 3px solid rgb(25, 0, 255); */
+}
+.container-content-capa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* border: 3px solid rgb(51, 255, 0) */;
+}
+.container-sombra-item{
+    background-color: #0000006c; 
+    z-index: 1; 
+    color: white; 
+    text-align: center;
+    padding: 50px;
+}
+.container-item-capa {
+   /*  border: 3px solid red; */
+    /* padding: 50px; */ 
+    padding: 10px;
+    
+    
+}
+@media screen and (max-width: 450px) {
+    .container-capa{
+        background-image: url("../../../public/assets/robo02.jpg");
+    }
+}

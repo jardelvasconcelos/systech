@@ -5,7 +5,9 @@ export default function Topo() {
     return (
         <div className="container-topo">
             <div className="container-logo">
-                <img className="img-logo" src="assets/fundo-preto.png" alt="logo" />
+                <a href="">
+                    <img className="img-logo" src="assets/fundo-preto.png" alt="logo" />
+                </a>
             </div>
             <nav className="container-link-topo">
                 <a href="" className="link-topo"><strong>SOBRE</strong> </a>
