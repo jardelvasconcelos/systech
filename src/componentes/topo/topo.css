@@ -1,11 +1,11 @@
 .container-topo {
     position: fixed;
     width: 100vw;
-    height: 80px;
+    height: 73px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cor3);
+    /* background-color: var(--cor3); */
 /*     border: 2px solid red; */
    
 }
@@ -14,8 +14,10 @@
   /*   border: 2px solid rgb(236, 133, 14); */
 }
 .img-logo{
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
+    padding-top: 15px;
+
   /*   border: 2px solid rgb(238, 255, 0); */
 }
 .container-link-topo{
@@ -30,6 +32,7 @@
     text-decoration: none;
     color: white;
     margin: 50px;
+   /*  border-bottom:  2px solid var(--cor1); */
     /* border: 2px solid rgb(43, 255, 0); */
 
 }

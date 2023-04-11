@@ -6,7 +6,7 @@ export default function Topo() {
         <header className="container-topo">
             <div className="container-logo">
                 <a href="">
-                    <img className="img-logo" src="assets/fundo-preto.png" alt="logo" />
+                    <img className="img-logo" src="assets/systech-op-3.png" alt="logo" />
                 </a>
             </div>
             <nav className="container-link-topo">
