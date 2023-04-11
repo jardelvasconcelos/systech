@@ -33,3 +33,8 @@
     /* border: 2px solid rgb(43, 255, 0); */
 
 }
+@media screen and (max-width: 550px){
+  .container-link-topo{
+    display: none;
+  }
+}

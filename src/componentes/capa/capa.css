@@ -26,8 +26,10 @@
    /*  border: 3px solid red; */
     /* padding: 50px; */ 
     padding: 10px;
-    
-    
+    font-family: var(--font2);   
+}
+.container-item-content-capa{
+  font-family: var(--font1);
 }
 @media screen and (max-width: 450px) {
     .container-capa{
