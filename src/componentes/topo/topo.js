@@ -3,7 +3,7 @@ import "./topo.css"
 
 export default function Topo() {
     return (
-        <div className="container-topo">
+        <header className="container-topo">
             <div className="container-logo">
                 <a href="">
                     <img className="img-logo" src="assets/fundo-preto.png" alt="logo" />
@@ -14,6 +14,6 @@ export default function Topo() {
                 <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
                 <a href="" className="link-topo"><strong>CONTATOS</strong> </a>
             </nav>
-        </div>
+        </header>
     )
 }
