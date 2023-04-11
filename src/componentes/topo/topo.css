@@ -29,9 +29,11 @@
 }
 .link-topo{
     font-size: 15px;
+    margin: 50px;
     text-decoration: none;
     color: white;
-    margin: 50px;
+    text-shadow: 1px 1px 3px black;
+   
    /*  border-bottom:  2px solid var(--cor1); */
     /* border: 2px solid rgb(43, 255, 0); */
 
@@ -39,5 +41,9 @@
 @media screen and (max-width: 550px){
   .container-link-topo{
     display: none;
+  }
+  .img-logo {
+    width: 100px;
+    height: 100px;
   }
 }
