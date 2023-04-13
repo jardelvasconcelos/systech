@@ -23,9 +23,9 @@
 }
 .container-item-capa {
     padding: 10px;
-    color: white;
+    color: var(--cor1);
     font-family: var(--font2);   
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 2px 2px black;
 }
 .container-item-content-capa{
   font-family: var(--font1);
