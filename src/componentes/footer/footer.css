@@ -1,0 +1,19 @@
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: auto;
+    color: white;
+}
+.coment-footer{
+
+}
+.container-img-footer{
+
+}
+.img-item-footer{
+    width: 100px;
+    height: 100px;
+}
