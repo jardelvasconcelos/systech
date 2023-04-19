@@ -20,7 +20,7 @@
 .item-sobre-title{
     margin-bottom: 30px;
    /*  border-bottom:  5px solid var(--cor1); */
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 .span-item-sobre-title{
     border-bottom:  5px solid var(--cor1);
