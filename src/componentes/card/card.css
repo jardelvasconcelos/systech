@@ -34,6 +34,7 @@
     border: 2px solid rgb(214, 236, 13);
     width: 100%;
     text-align: center;
+    word-wrap: break-word;
 }
 @media screen and (max-width: 900px) {
     .container-card{
