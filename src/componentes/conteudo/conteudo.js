@@ -1,4 +1,5 @@
 import React from "react";
+import Soluction from "../card/soluction";
 import "./conteudo.css";
 
 export default function Conteudo() {
@@ -34,6 +35,7 @@ export default function Conteudo() {
                         Ad laboris dolor esse commodo.
                         Adipisicing proident enim culpa voluptate esse nisi culpa.</p>
                 </div>
+                    <Soluction/>
             </section>
         </main>
     )

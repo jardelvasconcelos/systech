@@ -10,7 +10,7 @@ function App() {
       <Topo/>
       <Capa/>
       <Conteudo/>
-      <Soluction/>
+      {/* <Soluction/> */}
       <Footer/>
     </div>
   );

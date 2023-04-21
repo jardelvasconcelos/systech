@@ -1,8 +1,11 @@
 .container-sobre{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 40px 20px;
+    margin: 50px 20px;
 
+}
+.container-solucoes{
+    margin: 50px 20px;
 }
 .container-item-sobre{
     padding: 20px;
