@@ -18,7 +18,7 @@ export default function Conteudo() {
                         Adipisicing proident enim culpa voluptate esse nisi culpa.</p>
                 </div>
                 <div className="container-img-sobre">
-                    <img className="img-item-sobre" src="assets/kuka01.jpg" alt="kuka01" />
+                    <img className="img-item-sobre" src="assets/robo01.jpg" alt="kuka01" />
                 </div>
             </section>
             <section className="container-solucoes">

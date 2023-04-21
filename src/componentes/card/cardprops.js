@@ -8,9 +8,6 @@ export default function Card(props) {
                     <img className="img-card" src={props.icon} alt="image" />
                     <p className="coment-card">{props.coment}</p>
                 </div>
-                {/* <div className="container-coment-card">
-                   
-                </div> */}
             </div>
         
     )

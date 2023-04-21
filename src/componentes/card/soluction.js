@@ -4,16 +4,16 @@ export default function Soluction() {
     return (
         <section className='container-card'>
             <Card
-                icon="assets/painel01.jpg"
-                coment="dsjkgsdçlkgçlsdkfjgçlfsdkgçldfsjçdflklkhlkhlkljçd"
+                icon="assets/painel-eletrico.jpg"
+                coment="Montagem de painéis elétricos"
             />
             <Card
-                icon="assets/painel01.jpg"
-                coment="dsjkgsdçlkgçlsdkfjgçlfsdkgçldfsjçdfljçdfslkhçlkh "
+                icon="assets/kuka01.jpg"
+                coment="Programação em robores"
             />
             <Card
-                icon="assets/painel01.jpg"
-                coment="dsjkgsdçlkgçlsdkfjgçlfsdkgçldfsjçdfljçdfslkhçlkhf"
+                icon="assets/manutencao-eletrica.jpg"
+                coment="Manutenção elétrica"
             />
         </section>
     )
