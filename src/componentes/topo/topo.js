@@ -16,7 +16,6 @@ export default function Topo() {
                     <img className="img-logo" src="assets/systech-op-3.png" alt="logo" />
                 </a>
             </div>
-
             <div className="container-item-buttom ">
                 <button onClick={aparecer} >
                     <div className="menu_burger"></div>
@@ -24,12 +23,17 @@ export default function Topo() {
                     <div className="menu_burger"></div>
                 </button>
             </div>
-
+            <div className={openMenu ? 'dentro' : 'fora'}>
+                <div className="teste"></div>
+            </div>
             <nav className="container-link-topo">
                 <a href="" className="link-topo"><strong>SOBRE</strong> </a>
                 <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
                 <a href="" className="link-topo"><strong>CONTATOS</strong> </a>
             </nav>
+            
         </header>
+
+
     )
-}
+} 

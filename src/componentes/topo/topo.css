@@ -44,10 +44,6 @@ button{
   background: none ;
   border: none;
 }
-
-
-
-
 .container-link-topo{
    display: flex;
    justify-content: center;
@@ -69,6 +65,7 @@ button{
 @media screen and (max-width: 900px){
   .container-link-topo{
     display: none;
+ 
   }
   .img-logo {
     width: 100px;
@@ -77,8 +74,24 @@ button{
   .container-topo{
     background-color: white;
     box-shadow: 2px 2px 5px black;
+    
   }
   .container-item-buttom{
     visibility: visible;
+   border: 2px solid red;
+  }
+  .dentro{
+    visibility: visible;
+  }
+  .fora{
+     visibility: hidden; 
+  }
+  .teste{
+    position: relative;
+    top: 170px;
+    width: 30vw;
+    height: 30vh;
+    background-color: red;
+    z-index: 1;
   }
 }
