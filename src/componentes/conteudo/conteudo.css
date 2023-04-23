@@ -37,6 +37,7 @@
 .item-sobre-text{
     font-family: var(--font3);
     text-align: justify;
+    font-size: medium;
 }
 @media screen and (max-width: 900px) {
     .container-sobre{
