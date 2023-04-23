@@ -46,7 +46,7 @@
   width: 25px;
   height: 25px;
 }
-.menu_burger {
+/* .menu_burger {
   width: 30px;
   height: 5px;
   margin: 2px;
@@ -54,12 +54,10 @@
   border-radius: 5px;
   background-color: #0a0a0a;
   cursor: pointer;
-}
+} */
 button{
   background: none ;
-  border: none;
-  font-weight: bold;
-}
+ }
 .container-link-topo{
    display: flex;
    justify-content: center;
@@ -108,10 +106,11 @@ button{
     padding-top: 150px;
     position: fixed;
     top: 75px;
-    right: 5px;
+    right: 0px;
     width: 40vw;
     height: 40vh;
-    background-color: var(--cor1);
-    opacity: 0.5;
+    background-color: black;
+    border: 1px solid var(--cor1);
+    
   }
 }
