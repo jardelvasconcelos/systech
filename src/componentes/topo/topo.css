@@ -43,6 +43,7 @@
 button{
   background: none ;
   border: none;
+  font-weight: bold;
 }
 .container-link-topo{
    display: flex;
@@ -88,13 +89,12 @@ button{
   }
   .teste{
     padding-top: 150px;
-    position: absolute;
-    right: 90px;
-    width: 80vw;
+    position: fixed;
+    top: 75px;
+    right: 5px;
+    width: 40vw;
     height: 40vh;
     background-color: var(--cor1);
-  }
-  .testes{
-
+    opacity: 0.5;
   }
 }
