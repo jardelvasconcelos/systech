@@ -78,7 +78,7 @@ button{
   }
   .container-item-buttom{
     visibility: visible;
-   border: 2px solid red;
+ /*   border: 2px solid red; */
   }
   .dentro{
     visibility: visible;
@@ -87,11 +87,14 @@ button{
      visibility: hidden; 
   }
   .teste{
-    position: relative;
-    top: 170px;
-    width: 30vw;
-    height: 30vh;
-    background-color: red;
-    z-index: 1;
+    padding-top: 150px;
+    position: absolute;
+    right: 90px;
+    width: 80vw;
+    height: 40vh;
+    background-color: var(--cor1);
+  }
+  .testes{
+
   }
 }
