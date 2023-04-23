@@ -18,20 +18,21 @@ export default function Topo() {
                     </a>
                 </div>
                 <div className="container-item-buttom ">
-                    <button onClick={aparecer} >CONTATOS
+                    <button onClick={aparecer} className="menu-buttom">
+                        <img className="menu-img-buttom" src="assets/contato.png" alt="" />
                         {/* <div className="menu_burger"></div>
                         <div className="menu_burger"></div>
                         <div className="menu_burger"></div> */}
                     </button>
 
                 </div>
-                               <nav className="container-link-topo">
+                <nav className="container-link-topo">
                     <a href="" className="link-topo"><strong>SOBRE</strong> </a>
                     <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
                     <a href="" className="link-topo"><strong>CONTATOS</strong> </a>
                 </nav>
             </header>
-             <div className={openMenu ? 'dentro' : 'fora'}>
+            <div className={openMenu ? 'dentro' : 'fora'}>
                 <div className="teste"></div>
             </div>
         </section>
