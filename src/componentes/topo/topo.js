@@ -33,7 +33,7 @@ export default function Topo() {
                 </nav>
             </header>
             <div className={openMenu ? 'dentro' : 'fora'}>
-                <div className="container-contato">
+                <div className="container-contato " >
                     {/* <div className="container-endereco">
                         <h2>Endereço</h2>
                         <span>Ministro Gabriel , 89</span>
@@ -45,8 +45,8 @@ export default function Topo() {
                             <img src="assets/" alt="whats" />
                             <img src="assets/" alt="email" />
                         </div>
-                    </div> */}
-                    {/* <div>
+                    </div>
+                    <div>
                         <img className="img-logo" src="assets/fundo_preto.jpg" alt="" />
                     </div> */}
                 </div>

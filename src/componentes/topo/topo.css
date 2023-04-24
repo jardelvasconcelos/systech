@@ -84,6 +84,15 @@ button {
 
 }
 
+.dentro {
+  visibility: visible;
+}
+
+.fora {
+  /* visibility: hidden; */
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .container-link-topo {
     display: none;
@@ -118,19 +127,21 @@ button {
   .container-contato {
     /*  padding-top: 150px; */
     position: fixed;
-    top: 70px;
+    top: 75px;
     /* right: 0px; */
     width: 100vw;
     height: 20vh;
-    background-color: black;
+    background-color: var(--cor1);
     /* border: 1px solid var(--cor1); */
     /* border-radius: 20px 0px 0px 90px; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
+    opacity: 0.95;
   }
-  .container-endereco{
-    color: white;
+
+  .container-endereco {
+    color: black;
   }
 }
