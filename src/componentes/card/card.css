@@ -1,5 +1,5 @@
 .container-card {
-    border: 2px solid red;
+   /*  border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,7 +13,7 @@
      align-items: center; 
  } */
 .container-img-card {
-    border: 2px solid #1900ff;
+    /* border: 2px solid #1900ff; */
    /*  width:100%;
     height: 100%; */
     border-radius: 30px;
@@ -27,7 +27,7 @@
    /*  flex-grow: 1; */
 }
 .img-card {
-    border: 2px solid #0ee007;
+    /* border: 2px solid #0ee007; */
     width: 325px;
     height: 225px;
     border-radius: 30px;
@@ -40,7 +40,7 @@
    
 }
 .coment-card {
-    border: 2px solid #d6ec0d;
+    /* border: 2px solid #d6ec0d; */
     margin: 5px auto;
     text-align: center;
     word-wrap: break-word;

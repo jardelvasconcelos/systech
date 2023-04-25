@@ -35,15 +35,15 @@ export default function Topo() {
             <div className={openMenu ? 'dentro' : 'fora'}>
                 <div className="container-footer-contato " >
                     <div className="container-endereco">
-                        <h3>Endereço</h3>
+                        <h2 className="title-footer-contato">Endereço</h2>
                         <span className="item-span">Ministro Gabriel Passos,89</span>
                         <span className="item-span">Guabirotuba-Curitiba-PR</span>
                     </div>
                     <div className="container-contato">
-                        <h3>Entre em contatos conosco</h3>
+                        <h2 className="title-footer-contato">Entre em contatos conosco</h2>
                         <div className="container-img-contato">
-                            <img className="img-contato" src="assets/whatsapp-02.png" alt="whats" />
-                            <img className="img-contato" src="assets/logotipo-do-gmail-2.png" alt="email" />
+                           <a href="https://wa.me/5541984360158"> <img className="img-contato" src="assets/whatsapp-02.png" alt="whats" /></a>
+                            <a href="mailto:tecjardelv@gmail.com"><img className="img-contato" src="assets/logotipo-do-gmail-2.png" alt="email" /></a>
                         </div>
                     </div>
                 </div>
