@@ -116,32 +116,65 @@ button {
     /*   border: 2px solid red; */
   }
 
-  .dentro {
+/*   .dentro {
     visibility: visible;
   }
 
   .fora {
     visibility: hidden;
-  }
+  } */
 
-  .container-contato {
-    /*  padding-top: 150px; */
+  .container-footer-contato {
     position: fixed;
     top: 75px;
-    /* right: 0px; */
     width: 100vw;
     height: 20vh;
     background-color: var(--cor1);
-    /* border: 1px solid var(--cor1); */
-    /* border-radius: 20px 0px 0px 90px; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-content: center;
+    align-items: start;
     opacity: 0.95;
   }
 
   .container-endereco {
+    width: 50%;
+    height: 50%;
     color: black;
+    border: 2px solid red;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .container-contato{
+    width: 50%;
+    height: 50%;
+    color: black;
+    border: 2px solid rgb(4, 0, 255);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .container-img-contato{
+    border: 2px solid rgb(235, 252, 6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .img-contato{
+    border: 2px solid rgb(221, 230, 236);
+    width: 40px;
+    height: 40px;
+  }
+  h3{
+    font-size: medium;
+    font-family: var(--font1);
+  }
+  .item-span{
+    font-family: var(--font1);
+    color: white;
+    
   }
 }

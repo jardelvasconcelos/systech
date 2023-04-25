@@ -33,22 +33,19 @@ export default function Topo() {
                 </nav>
             </header>
             <div className={openMenu ? 'dentro' : 'fora'}>
-                <div className="container-contato " >
-                    {/* <div className="container-endereco">
-                        <h2>Endereço</h2>
-                        <span>Ministro Gabriel , 89</span>
-                        <span>Guabirotuba - Curitiba - PR</span>
+                <div className="container-footer-contato " >
+                    <div className="container-endereco">
+                        <h3>Endereço</h3>
+                        <span className="item-span">Ministro Gabriel Passos,89</span>
+                        <span className="item-span">Guabirotuba-Curitiba-PR</span>
                     </div>
-                    <div>
-                        <h2>Contatos</h2>
-                        <div>
-                            <img src="assets/" alt="whats" />
-                            <img src="assets/" alt="email" />
+                    <div className="container-contato">
+                        <h3>Entre em contatos conosco</h3>
+                        <div className="container-img-contato">
+                            <img className="img-contato" src="assets/whatsapp-02.png" alt="whats" />
+                            <img className="img-contato" src="assets/logotipo-do-gmail-2.png" alt="email" />
                         </div>
                     </div>
-                    <div>
-                        <img className="img-logo" src="assets/fundo_preto.jpg" alt="" />
-                    </div> */}
                 </div>
             </div>
         </section>
