@@ -1,4 +1,5 @@
 import Card from './cardprops.js';
+import "./card.css";
 
 export default function Soluction() {
     return (
