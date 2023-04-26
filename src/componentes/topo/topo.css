@@ -169,30 +169,33 @@ button {
     /* flex-wrap: nowrap; */
   }
   .container-img-contato{
-   /*  border: 2px solid rgb(235, 252, 6); */
+    /* border: 2px solid rgb(235, 252, 6); */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    /* align-items: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
   }
   .img-contato{
     /* border: 2px solid rgb(221, 230, 236); */
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
     margin: 0px 10px;
     box-shadow: 2px 2px 4px black;
   }
   .title-footer-contato{
-    font-size: 1.0em;
+    font-size: 1.2em;
     font-family: var(--font3);
     /* color: var(--cor1); */
     color: white;
+   /*  margin-bottom: 10px; */
     /* text-shadow: 3px 1px 2px black; */
     
   }
   .item-span{
     font-family: var(--font3);
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: white;
     text-align: center;
     font-weight: bold;
