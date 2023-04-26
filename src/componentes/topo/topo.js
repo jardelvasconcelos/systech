@@ -36,14 +36,14 @@ export default function Topo() {
                 <div className="container-footer-contato " >
                     <div className="container-endereco">
                         <h2 className="title-footer-contato">Endereço</h2>
-                        <span className="item-span">Ministro Gabriel Passos,89</span>
-                        <span className="item-span">Guabirotuba-Curitiba-PR</span>
+                        <p className="item-span">Ministro Gabriel Passos,89</p>
+                        <p className="item-span">Guabirotuba-Curitiba-PR</p>
                     </div>
                     <div className="container-contato">
-                        <h2 className="title-footer-contato">Entre em contatos conosco</h2>
+                        <h2 className="title-footer-contato">Entre em contato</h2>
                         <div className="container-img-contato">
-                           <a href="https://wa.me/5541984360158"> <img className="img-contato" src="assets/whatsapp-02.png" alt="whats" /></a>
-                            <a href="mailto:tecjardelv@gmail.com"><img className="img-contato" src="assets/logotipo-do-gmail-2.png" alt="email" /></a>
+                           <a href="https://wa.me/5541992823679"> <img className="img-contato" src="assets/whatsapp.png" alt="whats" /></a>
+                            <a href="mailto:luiz@systechengenharia.com.br"><img className="img-contato" src="assets/logotipo-do-gmail.png" alt="email" /></a>
                         </div>
                     </div>
                 </div>

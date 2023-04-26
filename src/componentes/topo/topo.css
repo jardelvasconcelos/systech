@@ -7,7 +7,7 @@
   align-items: center;
   backdrop-filter: blur(10px);
   /* background-color: var(--cor3); */
-  /*     border: 2px solid red; */
+      
 
 }
 
@@ -126,40 +126,46 @@ button {
 
   .container-footer-contato {
     position: fixed;
-    top: 75px;
+    top: 73px;
     width: 100vw;
     height: 20vh;
-    background-color: var(--cor5);
+    /* background-color: var(--cor5); */
+    background-color: #0f0303;
+   /*  background-image: linear-gradient(rgba(75, 218, 19, 0.692), var(--cor1)); */
     display: flex;
-    justify-content: space-around;
+   /*  justify-content: space-around; */
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+  /*   border: 3px solid var(--cor1); */
+   /*  box-shadow: 3px 3px 3px var(--cor1) inset; */
+
   }
 
   .container-endereco {
-    padding-top: 10px;
+   /*  padding-top: 10px; */
     width: 50%;
     height: 100%;
     color: black;
-/*     border: 2px solid red; */
-    margin: 20px;
+   /*  border: 2px solid red; */
+   /*  margin: 20px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-   /*  align-items: center; */
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
   }
   .container-contato{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     width: 50%;
     height: 100%;
     color: black;
-    /* border: 2px solid rgb(4, 0, 255); */
-    margin: 20px;
+   /*  border: 2px solid rgb(4, 0, 255); */
+    /* margin: 20px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     /* flex-wrap: nowrap; */
   }
   .container-img-contato{
@@ -171,18 +177,26 @@ button {
   }
   .img-contato{
     /* border: 2px solid rgb(221, 230, 236); */
-    width: 40px;
-    height: 40px;
-    margin: 10px 10px;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 4px black;
   }
   .title-footer-contato{
-    font-size: 1.5em;
-    font-family: var(--font1);
+    font-size: 1.0em;
+    font-family: var(--font3);
+    /* color: var(--cor1); */
+    color: white;
+    /* text-shadow: 3px 1px 2px black; */
+    
   }
   .item-span{
-    font-family: var(--font1);
-    font-size: 1em;
-    color: black;
+    font-family: var(--font3);
+    font-size: 0.6em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
   }
   
 }
