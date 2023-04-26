@@ -200,3 +200,19 @@ button {
   }
   
 }
+@media (min-width: 901px) and (max-width:2000px){
+  .container-footer-contato{
+  position: fixed;
+  top: 73px;
+  width: 100vw;
+  height: 20vh;
+  /* background-color: var(--cor5); */
+  background-color: #0f0303;
+ /*  background-image: linear-gradient(rgba(75, 218, 19, 0.692), var(--cor1)); */
+  display: flex;
+ /*  justify-content: space-around; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+}

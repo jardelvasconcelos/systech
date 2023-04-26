@@ -29,7 +29,8 @@ export default function Topo() {
                 <nav className="container-link-topo">
                     <a href="" className="link-topo"><strong>SOBRE</strong> </a>
                     <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
-                    <a href="" className="link-topo"><strong>CONTATOS</strong> </a>
+                    <button onClick={aparecer}>CONTATOS</button>
+                   {/*  <a href="" onClick={aparecer} className="link-topo"><strong>CONTATOS</strong> </a> */}
                 </nav>
             </header>
             <div className={openMenu ? 'dentro' : 'fora'}>
