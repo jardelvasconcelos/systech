@@ -29,7 +29,7 @@ export default function Topo() {
                 <nav className="container-link-topo">
                     <a href="" className="link-topo"><strong>SOBRE</strong> </a>
                     <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
-                    <button onClick={aparecer}>CONTATOS</button>
+                    <button onClick={aparecer} className="link-topo">CONTATOS</button>
                    {/*  <a href="" onClick={aparecer} className="link-topo"><strong>CONTATOS</strong> </a> */}
                 </nav>
             </header>
