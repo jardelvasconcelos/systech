@@ -2,10 +2,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px 20px;
+    padding-top: 50px;
 
+}
+.space{
+   /*  height: 73px; */
+   /*  border: 2px solid red; */
 }
 .container-solucoes{
     margin: 50px 20px;
+    padding-top: 50px;
 }
 .container-item-sobre{
     padding: 20px;

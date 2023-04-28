@@ -5,7 +5,8 @@ import "./conteudo.css";
 export default function Conteudo() {
     return (
         <main>
-            <section className="container-sobre">
+            <section className="space" id="sobre">
+            <div className="container-sobre" >
                 <div className="container-item-sobre">
                     <h1 className="item-sobre-title"><span className="span-item-sobre-title">Sobre a Systech</span></h1>
                     <h3 className="item-sobre-subtitle">
@@ -17,8 +18,10 @@ export default function Conteudo() {
                 <div className="container-img-sobre">
                     <img className="img-item-sobre" src="assets/robo01.jpg" alt="kuka01" />
                 </div>
+            </div>
             </section>
-            <section className="container-solucoes">
+            <section className="space" id="solucoes">
+            <div className="container-solucoes" >
                 <div className="container-item-sobre">
                     <h1 className="item-sobre-title"><span className="span-item-sobre-title">Nossas Soluções</span></h1>
                     <h3 className="item-sobre-subtitle">
@@ -29,6 +32,7 @@ export default function Conteudo() {
                     <p className="item-sobre-text">Oferecemos serviços de treinamento para operadores e técnicos, para que possam utilizar os equipamentos com segurança e eficiência. Com a manutenção robótica, os clientes podem ter a certeza de que seus equipamentos estão sempre em ótimo estado de funcionamento, o que garante a continuidade de suas operações e o sucesso de seus negócios.</p>
                 </div>
                 <Soluction />
+            </div>
             </section>
         </main>
     )

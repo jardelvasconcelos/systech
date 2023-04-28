@@ -3,7 +3,21 @@
   padding: 0px;
   margin: 0px
 }
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
 
+body::-webkit-scrollbar-thumb {
+  background: var(--cor1);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--cor2)
+}
 :root {
   --cor1 : #00c310;
   --cor2 : #010101;

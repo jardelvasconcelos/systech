@@ -13,7 +13,7 @@ export default function Topo() {
         <section>
             <header className="container-topo">
                 <div className="container-logo">
-                    <a href="">
+                    <a href="#initial">
                         <img className="img-logo" src="assets/systech-op-3.png" alt="logo" />
                     </a>
                 </div>
@@ -26,8 +26,8 @@ export default function Topo() {
                     </button>
                 </div>
                 <nav className="container-link-topo">
-                    <a href="" className="link-topo"><strong>SOBRE</strong> </a>
-                    <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
+                    <a href="#sobre" className="link-topo"><strong>SOBRE</strong> </a>
+                    <a href="#solucoes" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
                     <button onClick={aparecer} className="link-topo-buttom"><strong>CONTATOS</strong></button>
                 </nav>
             </header>
