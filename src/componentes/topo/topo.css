@@ -6,9 +6,6 @@
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
-  /* background-color: var(--cor3); */
-      
-
 }
 
 .container-logo {
@@ -20,11 +17,8 @@
   width: 140px;
   height: 140px;
   padding-top: 15px;
-
   /*   border: 2px solid rgb(238, 255, 0); */
 }
-
-
 
 .container-item-buttom {
   display: flex;
@@ -35,15 +29,10 @@
 }
 
 .menu-buttom {
-  /*  background-color: var(--cor1); */
-  /* border-radius: 10px; */
   padding: 5px;
   border: 3px solid var(--cor1);
   border-radius: 15px;
   box-shadow: 2px 2px 1px black;
-  /* font-size: 12px; */
-  /* color: black; */
-  /* text-shadow: 1px 1px 1px black; */
 }
 
 .menu-img-buttom {
@@ -69,7 +58,6 @@ button {
   justify-content: space-evenly;
   align-items: center;
   /*  border: 2px solid rgb(17, 0, 255); */
-
 }
 
 .link-topo {
@@ -78,10 +66,7 @@ button {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 3px black;
-
-  /*  border-bottom:  2px solid var(--cor1); */
   /* border: 2px solid rgb(43, 255, 0); */
-
 }
 
 .dentro {
@@ -96,7 +81,6 @@ button {
 @media screen and (max-width: 900px) {
   .container-link-topo {
     display: none;
-
   }
 
   .img-logo {
@@ -108,7 +92,6 @@ button {
     /* background-color: white; */
     box-shadow: 2px 2px 5px black;
     backdrop-filter: blur(20px);
-
   }
 
   .container-item-buttom {
@@ -116,59 +99,42 @@ button {
     /*   border: 2px solid red; */
   }
 
-/*   .dentro {
-    visibility: visible;
-  }
-
-  .fora {
-    visibility: hidden;
-  } */
-
   .container-footer-contato {
     position: fixed;
     top: 73px;
     width: 100vw;
     height: 20vh;
-    /* background-color: var(--cor5); */
     background-color: #0f0303;
-   /*  background-image: linear-gradient(rgba(75, 218, 19, 0.692), var(--cor1)); */
     display: flex;
-   /*  justify-content: space-around; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  /*   border: 3px solid var(--cor1); */
-   /*  box-shadow: 3px 3px 3px var(--cor1) inset; */
-
   }
 
   .container-endereco {
-   /*  padding-top: 10px; */
     width: 50%;
     height: 100%;
     color: black;
-   /*  border: 2px solid red; */
-   /*  margin: 20px; */
+    /*  border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
   }
-  .container-contato{
-    /* padding-top: 10px; */
+
+  .container-contato {
     width: 50%;
     height: 100%;
     color: black;
-   /*  border: 2px solid rgb(4, 0, 255); */
-    /* margin: 20px; */
+    /*  border: 2px solid rgb(4, 0, 255); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: nowrap; */
   }
-  .container-img-contato{
+
+  .container-img-contato {
     /* border: 2px solid rgb(235, 252, 6); */
     display: flex;
     flex-direction: row;
@@ -177,23 +143,22 @@ button {
     width: 100%;
     margin-top: 5px;
   }
-  .img-contato{
+
+  .img-contato {
     /* border: 2px solid rgb(221, 230, 236); */
     width: 38px;
     height: 38px;
     margin: 0px 10px;
     box-shadow: 2px 2px 4px black;
   }
-  .title-footer-contato{
+
+  .title-footer-contato {
     font-size: 1.2em;
     font-family: var(--font3);
-    /* color: var(--cor1); */
     color: white;
-   /*  margin-bottom: 10px; */
-    /* text-shadow: 3px 1px 2px black; */
-    
   }
-  .item-span{
+
+  .item-span {
     font-family: var(--font3);
     font-size: 0.8em;
     color: white;
@@ -201,74 +166,76 @@ button {
     font-weight: bold;
     padding: 0px;
   }
-  
-}
-@media (min-width: 901px) and (max-width:2000px){
-  .container-footer-contato{
-  position: fixed;
-  top: 73px;
-  left:  80vw;
-/*   width: 40vw; */
-  height: 60vh;
-  /* background-color: var(--cor5); */
-  background-color: #0f0303;
- /*  background-image: linear-gradient(rgba(75, 218, 19, 0.692), var(--cor1)); */
-  display: flex;
- /*  justify-content: space-around; */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid green;
-}
-.container-endereco {
-  /*  padding-top: 10px; */
-   width: 50%;
-   height: 100%;
-   color: black;
-   border: 2px solid red;
-  /*  margin: 20px; */
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: nowrap;
- }
- .container-contato{
-   /* padding-top: 10px; */
-   width: 50%;
-   height: 100%;
-   color: black;
-   border: 2px solid rgb(4, 0, 255);
-   /* margin: 20px; */
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   /* flex-wrap: nowrap; */
- }
-.img-contato{
-  border: 2px solid rgb(221, 230, 236);
-  width: 38px;
-  height: 38px;
-  margin: 0px 10px;
-  box-shadow: 2px 2px 4px black;
-}
-.title-footer-contato{
-  font-size: 1.2em;
-  font-family: var(--font3);
-  /* color: var(--cor1); */
-  color: white;
- /*  margin-bottom: 10px; */
-  /* text-shadow: 3px 1px 2px black; */
-  
-}
-.item-span{
-  font-family: var(--font3);
-  font-size: 0.8em;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  padding: 0px;
 }
 
+@media (min-width: 901px) and (max-width:2000px) {
+  .container-footer-contato {
+    position: fixed;
+    top: 73px;
+    right: 0px;
+    width: 20vw;
+    height: 30%;
+    background-color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    border-radius: 60px 0px 0px 60px;
+    box-shadow: 5px 5px 10px black;
+  }
+
+  .container-endereco {
+    width: 100%;
+    height: 100%;
+    color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .container-contato {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(4, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-contato {
+    /* border: 2px solid rgb(221, 230, 236); */
+    width: 38px;
+    height: 38px;
+    margin: 0px 10px;
+  }
+
+  .title-footer-contato {
+    font-size: 1.2em;
+    font-family: var(--font3);
+    color: black;
+  }
+
+  .item-span {
+    font-family: var(--font3);
+    font-size: 0.8em;
+    color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+  }
+
+  .link-topo-buttom {
+    font-size: 15px;
+    margin: 50px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    border: none;
+    cursor: pointer;
+  }
 }

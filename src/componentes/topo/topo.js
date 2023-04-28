@@ -24,13 +24,11 @@ export default function Topo() {
                         <div className="menu_burger"></div>
                         <div className="menu_burger"></div> */}
                     </button>
-
                 </div>
                 <nav className="container-link-topo">
                     <a href="" className="link-topo"><strong>SOBRE</strong> </a>
                     <a href="" className="link-topo"> <strong>SOLUÇÕES</strong> </a>
-                    <button onClick={aparecer} className="link-topo">CONTATOS</button>
-                   {/*  <a href="" onClick={aparecer} className="link-topo"><strong>CONTATOS</strong> </a> */}
+                    <button onClick={aparecer} className="link-topo-buttom"><strong>CONTATOS</strong></button>
                 </nav>
             </header>
             <div className={openMenu ? 'dentro' : 'fora'}>
@@ -43,7 +41,7 @@ export default function Topo() {
                     <div className="container-contato">
                         <h2 className="title-footer-contato">Entre em contato</h2>
                         <div className="container-img-contato">
-                           <a href="https://wa.me/5541992823679"> <img className="img-contato" src="assets/whatsapp.png" alt="whats" /></a>
+                            <a href="https://wa.me/5541992823679"> <img className="img-contato" src="assets/whatsapp.png" alt="whats" /></a>
                             <a href="mailto:luiz@systechengenharia.com.br"><img className="img-contato" src="assets/logotipo-do-gmail.png" alt="email" /></a>
                         </div>
                     </div>
