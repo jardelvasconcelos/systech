@@ -7,10 +7,10 @@ import Soluction from './componentes/card/soluction';
 function App() {
   return (
     <div className="App">
-      <Topo/>
-      <Capa/>
-      <Conteudo/>
-      <Footer/>
+      <Topo />
+      <Capa />
+      <Conteudo />
+      <Footer />
     </div>
   );
 }

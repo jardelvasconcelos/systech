@@ -3,9 +3,11 @@
   padding: 0px;
   margin: 0px
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body::-webkit-scrollbar {
   width: 15px;
 }
@@ -18,19 +20,21 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background: var(--cor2)
 }
+
 :root {
-  --cor1 : #00c310;
-  --cor2 : #010101;
-  --cor3 : #23282c;
-  --cor4 : #23282c8e;
-  --cor5 : #00c310c0;
+  --cor1: #00c310;
+  --cor2: #010101;
+  --cor3: #23282c;
+  --cor4: #23282c8e;
+  --cor5: #00c310c0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 :root {
-  --font1 : 'Bebas Neue', cursive;
-  --font2 : 'Audiowide', cursive;
-  --font3 : 'Poppins', sans-serif;
-} 
+  --font1: 'Bebas Neue', cursive;
+  --font2: 'Audiowide', cursive;
+  --font3: 'Poppins', sans-serif;
+}
