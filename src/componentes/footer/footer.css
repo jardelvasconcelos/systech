@@ -1,4 +1,4 @@
-.container-footer{
+.container-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,11 +7,13 @@
     height: auto;
     color: white;
 }
-.img-item-footer{
+
+.img-item-footer {
     width: 60px;
     height: 60px;
 }
-p{
+
+.content-item-footer {
     font-size: small;
     padding-bottom: 10px;
     font-family: var(--font2);

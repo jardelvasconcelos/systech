@@ -10,14 +10,12 @@
 
 .container-logo {
   min-width: min-content;
-  /*   border: 2px solid rgb(236, 133, 14); */
 }
 
 .img-logo {
   width: 140px;
   height: 140px;
   padding-top: 15px;
-  /*   border: 2px solid rgb(238, 255, 0); */
 }
 
 .container-item-buttom {
@@ -40,15 +38,6 @@
   height: 25px;
 }
 
-/* .menu_burger {
-  width: 30px;
-  height: 5px;
-  margin: 2px;
-  border: 2px;
-  border-radius: 5px;
-  background-color: #0a0a0a;
-  cursor: pointer;
-} */
 button {
   background: none;
 }
@@ -57,7 +46,6 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /*  border: 2px solid rgb(17, 0, 255); */
 }
 
 .link-topo {
@@ -66,7 +54,6 @@ button {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 3px black;
-  /* border: 2px solid rgb(43, 255, 0); */
 }
 
 .dentro {
@@ -74,7 +61,6 @@ button {
 }
 
 .fora {
-  /* visibility: hidden; */
   display: none;
 }
 
@@ -89,14 +75,12 @@ button {
   }
 
   .container-topo {
-    /* background-color: white; */
     box-shadow: 2px 2px 5px black;
     backdrop-filter: blur(20px);
   }
 
   .container-item-buttom {
     visibility: visible;
-    /*   border: 2px solid red; */
   }
 
   .container-footer-contato {
@@ -115,7 +99,6 @@ button {
     width: 50%;
     height: 100%;
     color: black;
-    /*  border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +110,6 @@ button {
     width: 50%;
     height: 100%;
     color: black;
-    /*  border: 2px solid rgb(4, 0, 255); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +117,6 @@ button {
   }
 
   .container-img-contato {
-    /* border: 2px solid rgb(235, 252, 6); */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -145,7 +126,6 @@ button {
   }
 
   .img-contato {
-    /* border: 2px solid rgb(221, 230, 236); */
     width: 38px;
     height: 38px;
     margin: 0px 10px;
@@ -180,7 +160,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid green; */
     border-radius: 60px 0px 0px 60px;
     box-shadow: 5px 5px 10px black;
   }
@@ -189,7 +168,6 @@ button {
     width: 100%;
     height: 100%;
     color: black;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +178,6 @@ button {
   .container-contato {
     width: 100%;
     height: 100%;
-    /* border: 2px solid rgb(4, 0, 255); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +185,6 @@ button {
   }
 
   .img-contato {
-    /* border: 2px solid rgb(221, 230, 236); */
     width: 38px;
     height: 38px;
     margin: 0px 10px;

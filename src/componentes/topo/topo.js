@@ -20,9 +20,6 @@ export default function Topo() {
                 <div className="container-item-buttom ">
                     <button onClick={aparecer} className="menu-buttom">
                         <img className="menu-img-buttom" src="assets/contato.png" alt="" />
-                        {/* <div className="menu_burger"></div>
-                        <div className="menu_burger"></div>
-                        <div className="menu_burger"></div> */}
                     </button>
                 </div>
                 <nav className="container-link-topo">
