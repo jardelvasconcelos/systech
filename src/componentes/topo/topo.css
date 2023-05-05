@@ -172,6 +172,7 @@ button {
     color: white;
     text-align: center;
     font-weight: bold;
+    text-shadow: 2px 2px black;
     padding: 0px;
   }
 }
