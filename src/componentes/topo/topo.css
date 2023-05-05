@@ -88,6 +88,21 @@ button {
   .container-footer-contato {
     position: fixed;
     top: 73px;
+    right: 0px;
+    width: 50vw;
+    height: 20%;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px 0px 0px 60px;
+    box-shadow: 5px 5px 10px black;
+  }
+
+ /*  .container-footer-contato {
+    position: fixed;
+    top: 73px;
     width: 100vw;
     height: 20vh;
     background-color: #0f0303;
@@ -95,10 +110,10 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .container-endereco {
-    width: 50%;
+    width: 100%;
     height: 100%;
     color: black;
     display: flex;
@@ -107,8 +122,7 @@ button {
     align-items: center;
     flex-wrap: nowrap;
   }
-
-  .container-contato {
+  /* .container-endereco {
     width: 50%;
     height: 100%;
     color: black;
@@ -116,6 +130,18 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+  } */
+
+  .container-contato {
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   .container-img-contato {
@@ -124,20 +150,20 @@ button {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 5px;
+   /*  margin-top: 5px; */
   }
 
   .img-contato {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
     margin: 0px 10px;
-    box-shadow: 2px 2px 4px black;
+    /* box-shadow: 2px 2px 4px black; */
   }
 
   .title-footer-contato {
     font-size: 1.2em;
     font-family: var(--font3);
-    color: white;
+    color: black;
   }
 
   .item-span {
