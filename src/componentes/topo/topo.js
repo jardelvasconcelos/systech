@@ -31,12 +31,12 @@ export default function Topo() {
             <div className={openMenu ? 'dentro' : 'fora'}>
                 <div className="container-footer-contato " >
                     <div className="container-endereco">
-                        <h2 className="title-footer-contato">Endereço</h2>
+                        <h2 className="title-footer-contato">Endereço:</h2>
                         <p className="item-span">Ministro Gabriel Passos,89</p>
                         <p className="item-span">Guabirotuba-Curitiba-PR</p>
                     </div>
                     <div className="container-contato">
-                        <h2 className="title-footer-contato">Entre em contato</h2>
+                        <h2 className="title-footer-contato">Entre em contato:</h2>
                         <div className="container-img-contato">
                             <a href="https://wa.me/5541992823679"> <img className="img-contato" src="assets/whatsapp.png" alt="whats" /></a>
                             <a href="mailto:luiz@systechengenharia.com.br"><img className="img-contato" src="assets/logotipo-do-gmail.png" alt="email" /></a>

@@ -98,20 +98,16 @@ button {
     align-items: center;
     border-radius: 60px 0px 0px 60px;
     box-shadow: 5px 5px 10px black;
+    animation: open 1s;
   }
-
- /*  .container-footer-contato {
-    position: fixed;
-    top: 73px;
-    width: 100vw;
-    height: 20vh;
-    background-color: #0f0303;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  } */
-
+  @keyframes open {
+    from{
+      right: -50vw;
+    }
+    to {
+      right: 0px;
+    }
+  }
   .container-endereco {
     width: 100%;
     height: 100%;
@@ -122,18 +118,7 @@ button {
     align-items: center;
     flex-wrap: nowrap;
   }
-  /* .container-endereco {
-    width: 50%;
-    height: 100%;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-  } */
-
-  .container-contato {
+   .container-contato {
     width: 100%;
     height: 100%;
     color: black;
@@ -162,18 +147,18 @@ button {
 
   .title-footer-contato {
     font-size: 1.2em;
-    font-family: var(--font3);
+    font-family: var(--font1);
     color: black;
   }
 
   .item-span {
-    font-family: var(--font3);
+    font-family: var(--font1);
     font-size: 0.8em;
     color: white;
     text-align: center;
     font-weight: bold;
-    text-shadow: 2px 2px black;
-    padding: 0px;
+    letter-spacing: 2px;
+   
   }
 }
 
@@ -191,6 +176,16 @@ button {
     align-items: center;
     border-radius: 60px 0px 0px 60px;
     box-shadow: 5px 5px 10px black;
+    animation: open 1s;
+  }
+
+  @keyframes open {
+    from{
+      right: -20vw;
+    }
+    to {
+      right: 0px;
+    }
   }
 
   .container-endereco {
